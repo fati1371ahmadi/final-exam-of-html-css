@@ -1,0 +1,51 @@
+@import url(./_resets.css);
+:root{
+    --bg-color:#239BD8;
+    --text-color:#239BD8;
+    --text-color2: #62ecd3;
+}
+.bg-color-main{
+    background-color: var(--bg-color);
+}
+.text-color{
+    color: var(--text-color);
+}
+.line {
+    border-top: 1px solid black;
+    height: 0;
+  }
+  .gap1{
+    gap: 20rem;
+  }
+  .pro-pic{
+    height: 4.5rem;
+    width: 4.5rem;
+  }
+
+  .img {
+    width: 608px;
+    height: 478px;
+  }
+
+  .border2 {
+    color: var(--text-color);
+    border-color: var(--bg-color)!important;
+  }
+
+ .title {
+    color: var(--text-color2);
+  }
+
+  .border3 {
+    margin-top: 30rem;
+  }
+
+
+
+  @media  (max-width: 700px) {
+    .head {
+      display: none;
+    }
+  }
+
+
